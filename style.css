@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Blubg{
+    background-color: #000cff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.banner img{
+    width: 100%;
+}
+.content img{
+ margin: 0 auto;
+ width: 100%;
+}
+@media (min-width: 541px){
+     /* .content  img{
+        width: 33%;
+    }  */
+ .content{
+    display: flex;
+    width: 550px;
+    margin: 0 auto;
+     justify-content: space-between;
+     margin-block: 40px; 
+      }
+} 
+@media (min-width: 950px){
+     /* .content  img{
+        width: 33%;
+    }  */
+ .content{
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+     justify-content: space-between;
+     margin-block: 40px; 
+      }
+} 
+
+.more{
+    text-align: center;
+    color: #0511f9;
+    font-size: 20px;
+}
